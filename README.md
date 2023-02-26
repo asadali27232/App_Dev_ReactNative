@@ -17,7 +17,8 @@ Here's a list of the lab works included in this repository:
 
 Here's a list of the practice tasks included in this repository:
 
-- [Task 1: Building a Simple Todo App](./practice-projects/todo-list/)
+- [Task 1: Building a Simple Todo List App](./practice-projects/todo-list/)
+- [Task 2: Designing a Prodct Screen](./practice-projects/product-screen/)
 
 Each lab work has its own set of requirements and objectives, and is designed to build on the knowledge and skills learned in previous labs.
 
