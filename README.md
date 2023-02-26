@@ -57,3 +57,7 @@ Contributions to this repository are welcome. If you notice any issues or have s
 
 ## About Me
 My name is Asad Ali, and I'm a Computer Science student at [COMSATS University Lahore](https://lahore.comsats.edu.pk/default.aspx). I'm passionate about mobile app development and am always looking for ways to improve my skills. You can connect with me on [WhatsApp](https://wa.me/03074315952) or [Email](mailto:asadali27232@gmail.com).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
