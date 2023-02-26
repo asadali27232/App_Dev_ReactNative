@@ -1,4 +1,4 @@
-# Mobile Application Development Labs
+# App_Dev_ReactNative
 
 This repository contains my lab works for the Mobile Application Development course I took at my university. The course covered the basics of mobile app development using React Native and Expo. Each lab work is organized in a separate directory with its own README file explaining the requirements and objectives of the lab.
 
