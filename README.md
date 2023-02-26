@@ -6,13 +6,14 @@ This repository contains my lab works for the Mobile Application Development cou
 
 Here's a list of the lab works included in this repository:
 
-- [Lab 1: Introduction to React Native](./Lab1/)
-- [Lab 2: Building a Simple Todo App](./Lab2/)
-- [Lab 3: Styling and Navigation in React Native](./Lab3/)
-- [Lab 4: Handling User Input and Data Persistence](./Lab4/)
-- [Lab 5: Using APIs and Networking in React Native](./Lab5/)
-- [Lab 6: Working with Maps and Geolocation in React Native](./Lab6/)
-- [Lab 7: Debugging and Testing React Native Apps](./Lab7/)
+- [Lab 1: Simple Login Screen](./Lab1/)
+- [Lab 2: Coming Soon...](./Lab2/)
+- [Lab 3: Coming Soon...](./Lab3/)
+- [Lab 4: Coming Soon...](./Lab4/)
+- [Lab 5: Coming Soon...](./Lab5/)
+- [Lab 6: Coming Soon...](./Lab6/)
+- [Lab 7: Coming Soon...](./Lab7/)
+- [Lab 8: Coming Soon...](./Lab8/)
 
 Here's a list of the practice tasks included in this repository:
 
