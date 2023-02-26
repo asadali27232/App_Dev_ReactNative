@@ -1,6 +1,6 @@
 # App_Dev_ReactNative
 
-This repository contains my lab works for the Mobile Application Development course I took at my university. The course covered the basics of mobile app development using React Native and Expo. Each lab work is organized in a separate directory.
+This repository contains my lab works for the Mobile Application Development course I took at my university. The course covered the basics of mobile app development using React Native and Expo. Each lab work is organized in a separate directory and in practice-projects directory I also included some projects other then lab works.
 
 ## Labs
 
@@ -13,6 +13,10 @@ Here's a list of the lab works included in this repository:
 - [Lab 5: Using APIs and Networking in React Native](./Lab5/)
 - [Lab 6: Working with Maps and Geolocation in React Native](./Lab6/)
 - [Lab 7: Debugging and Testing React Native Apps](./Lab7/)
+
+Here's a list of the practice tasks included in this repository:
+
+- [Task 1: Building a Simple Todo App](./practice-projects/todo-list/)
 
 Each lab work has its own set of requirements and objectives, and is designed to build on the knowledge and skills learned in previous labs.
 
