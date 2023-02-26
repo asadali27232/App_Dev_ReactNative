@@ -18,12 +18,10 @@ Each lab work has its own set of requirements and objectives, and is designed to
 
 ## Technologies Used
 
-<p align="center">
-  <a href="https://github.com/asadali27232/App_Dev_ReactNative/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/asadali27232/App_Dev_ReactNative"></a>
-  <a href="https://github.com/asadali27232/App_Dev_ReactNative/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/asadali27232/App_Dev_ReactNative"></a>
-  <a href="https://github.com/asadali27232/App_Dev_ReactNative/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/asadali27232/App_Dev_ReactNative"></a>
-  <a href="https://github.com/asadali27232/App_Dev_ReactNative/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/asadali27232/App_Dev_ReactNative"></a>
-</p>
+[![React Native](https://img.shields.io/badge/React%20Native-0.64-blue)](https://reactnative.dev/docs/0.64/getting-started)
+[![Firebase](https://img.shields.io/badge/Firebase-8.4.1-orange)](https://firebase.google.com/docs)
+[![Expo](https://img.shields.io/badge/Expo-43.0.0-lightgrey)](https://docs.expo.io/)
+[![CSS](https://img.shields.io/badge/CSS-used-green)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 The labs in this repository were developed using the following technologies:
 
