@@ -33,6 +33,7 @@ Each lab work has its own set of requirements and objectives, and is designed to
 The labs in this repository were developed using the following technologies:
 
 - [React Native](https://reactnative.dev/)
+- [Firebase](https://firebase.google.com/docs)
 - [Expo](https://expo.dev/)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
