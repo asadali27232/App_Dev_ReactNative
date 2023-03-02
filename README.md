@@ -7,7 +7,7 @@ This repository contains my lab works for the Mobile Application Development cou
 Here's a list of the lab works included in this repository:
 
 - [Lab 1: Simple Login Screen](./Lab1/)
-- [Lab 2: Coming Soon...](./Lab2/)
+- [Lab 2: FlatList](./Lab2/)
 - [Lab 3: Coming Soon...](./Lab3/)
 - [Lab 4: Coming Soon...](./Lab4/)
 - [Lab 5: Coming Soon...](./Lab5/)
@@ -56,7 +56,7 @@ This will start the Expo development server and open the app on your default bro
 Contributions to this repository are welcome. If you notice any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
 ## About Me
-My name is Asad Ali, and I'm a Computer Science student at [COMSATS University Lahore](https://lahore.comsats.edu.pk/default.aspx). I'm passionate about mobile app development and am always looking for ways to improve my skills. You can connect with me on [WhatsApp](https://wa.me/03074315952) or [Email](mailto:asadali27232@gmail.com).
+My name is Asad Ali, and I'm a Computer Science student at [COMSATS University Lahore](https://lahore.comsats.edu.pk/default.aspx). I'm passionate about mobile app development and am always looking for ways to improve my skills. You can connect with me on [WhatsApp](https://wa.me/923074315952) or [Email](mailto:asadali27232@gmail.com).
 
 ## License
 
