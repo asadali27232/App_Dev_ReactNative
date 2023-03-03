@@ -23,7 +23,7 @@ function Product() {
                 </View>
                 <View style={styles.desc}>
                     <Text style={{ color: '#000000', fontSize: 18, fontWeight: 'bold', marginVertical: 10, }}>Detail</Text>
-                    <Text style={{ color: '#383F53', fontSize: 12, }}>This burger uses 1000% quality beef with sliced tomatoes, pickles, vegetable, union amd extra thick cheese...</Text>
+                    <Text style={{ color: '#383F53', fontSize: 13, }}>This burger uses 1000% quality beef with sliced tomatoes, pickles, vegetable, union amd extra thick cheese...</Text>
                 </View>
             </View>
         </View>
@@ -65,6 +65,6 @@ const styles = StyleSheet.create({
         width: 18,
         height: 18,
         marginEnd: 10,
-    }
+    },
 });
 export default Product
