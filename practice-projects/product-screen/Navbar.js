@@ -31,23 +31,24 @@ const styles = StyleSheet.create({
     },
     sec1: {
         flex: 0.15,
-        justifyContent: 'center',
+        justifyContent: 'flex-end',
         alignItems: 'flex-start',
     },
     sec2: {
         flex: 0.8,
-        justifyContent: 'center',
+        justifyContent: 'flex-end',
         alignItems: 'center',
     },
     sec3: {
         flex: 0.15,
-        justifyContent: 'center',
+        justifyContent: 'flex-end',
         alignItems: 'flex-end',
     },
     text: {
         fontSize: 20,
         color: '#383F53',
         fontWeight: 'bold',
+        marginBottom: 10,
     },
     button: {
         backgroundColor: '#FBFCFF',

@@ -28,13 +28,13 @@ const styles = StyleSheet.create({
     padding: 20
   },
   navbar: {
-    flex: 0.15,
+    flex: 0.1,
     width: '100%'
   },
   product: {
     backgroundColor: '#FFFFFF',
-    flex: 0.6,
-    width: '100%'
+    flex: 0.5,
+    width: '100%',
   },
   horList: {
     flex: 0.4,
