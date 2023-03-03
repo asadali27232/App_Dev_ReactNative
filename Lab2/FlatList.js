@@ -4,32 +4,37 @@ const flArray = [
     {
         key: 1,
         regId: "SP21-BCS-001",
-        name: "Hemera"
+        name: "Asad"
     },
     {
         key: 2,
         regId: "SP21-BCS-002",
-        name: "Amena"
+        name: "Haroon"
     },
     {
         key: 3,
         regId: "SP21-BCS-002",
-        name: "Mushaim"
+        name: "Zahid"
     },
     {
         key: 4,
         regId: "SP21-BCS-004",
-        name: "Esha"
+        name: "Ali"
     },
     {
         key: 5,
         regId: "SP21-BCS-005",
-        name: "Nisha"
+        name: "Faraz"
     },
     {
         key: 6,
         regId: "SP21-BCS-006",
-        name: "Fiza"
+        name: "Najam"
+    },
+    {
+        key: 7,
+        regId: "SP21-BCS-007",
+        name: "Ayan"
     },
 ]
 
@@ -54,17 +59,16 @@ const styles = StyleSheet.create({
     container: {
         width: "100%",
         justifyContent: "center",
-        // backgroundColor: "red",
         padding: 10,
+        marginBottom: 10,
     },
     listItem: {
-        backgroundColor: "lightgray",
         width: '100%',
         margin: 5,
         padding: 20,
         borderRadius: 10,
         borderWidth: 1,
-        borderColor: "green",
+        borderColor: "#00a7f8",
     },
 })
 export default MyFlatList
