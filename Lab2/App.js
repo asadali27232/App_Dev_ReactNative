@@ -1,10 +1,9 @@
 import { StatusBar } from "expo-status-bar";
 import {
   StyleSheet,
-  Text,
   View,
   Image,
-  TouchableOpacity,
+  Text
 } from "react-native";
 import FlatList from "./FlatList";
 
@@ -12,16 +11,15 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.logoContainer}>
-        <Image style={styles.logo} source={require("./assets/logo.png")} />
+        <Text style={styles.whatsapp}>WhatsApp</Text>
+        <View style={{ flex: 1, flexDirection: 'row' }}>
+          <View style={styles.activeTab}><Text style={styles.tabFont}>Chats</Text></View>
+          <View style={styles.tabs}><Text style={styles.tabFont}>Status</Text></View>
+          <View style={styles.tabs}><Text style={styles.tabFont}>Calls</Text></View>
+        </View>
       </View>
       <View style={styles.inputContainer}>
-        {/* My Flat List */}
         <FlatList />
-      </View>
-      <View style={styles.buttonContainer}>
-        <TouchableOpacity style={styles.button}>
-          <Text style={styles.text}>Button</Text>
-        </TouchableOpacity>
       </View>
       <StatusBar style="auto" />
     </View>
@@ -30,49 +28,48 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
+    backgroundColor: '#121B22',
     flex: 1,
     width: "100%",
-    paddingBottom: 100,
   },
   logoContainer: {
-    flex: 0.4,
+    backgroundColor: '#1F2C34',
+    paddingHorizontal: 10,
+    flex: 0.13,
     width: "100%",
-    alignItems: "center",
-    justifyContent: "center",
+    justifyContent: 'center',
+    paddingTop: 30
   },
   inputContainer: {
-    flex: 0.45,
+    paddingTop: 10,
+    flex: 0.9,
     width: "100%",
-  },
-  buttonContainer: {
-    flex: 0.15,
-    width: "100%",
-  },
-  logo: {
-    width: 100,
-    height: 100,
-  },
-  input: {
-    height: 50,
-    marginHorizontal: 22,
-    marginBottom: 22,
-    borderWidth: 1,
-    borderColor: "#00a7f8",
-    borderRadius: 15,
-    padding: 15,
-    backgroundColor: "#fff",
   },
   text: {
     color: "#fff",
     fontSize: 16,
   },
-  button: {
-    backgroundColor: "#00a7f8",
-    justifyContent: "center",
-    alignItems: "center",
-    padding: 14,
-    marginBottom: 16,
-    borderRadius: 15,
-    marginHorizontal: 22,
+  whatsapp: {
+    fontSize: 20,
+    color: "#fff",
+    marginTop: 16
   },
+  tabs: {
+    flex: 0.33,
+    fontSize: 10,
+    color: 'white',
+    alignItems: 'center',
+    marginTop: 30
+  },
+  activeTab: {
+    flex: 0.33,
+    alignItems: 'center',
+    marginTop: 30,
+    borderBottomWidth: 5,
+    borderBottomColor: '#03A684'
+  },
+  tabFont: {
+    fontSize: 16,
+    color: 'white',
+  }
 });
