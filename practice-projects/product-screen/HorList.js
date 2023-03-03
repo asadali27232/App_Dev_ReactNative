@@ -1,8 +1,9 @@
 import React from 'react'
+import { StyleSheet, Text, View } from 'react-native';
 
 function HorList() {
     return (
-        <div>HorList</div>
+        <Text style={{ fontSize: 20, color: '#383F53', fontWeight: 'bold', }}>Popular Foods</Text>
     )
 }
 

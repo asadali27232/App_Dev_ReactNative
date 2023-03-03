@@ -1,18 +1,19 @@
 import { StyleSheet, Text, View } from 'react-native';
-import HorList from './HorList';
-import Product from './Product';
+import HorList from './HorList'
+import Product from './Product'
+import Navbar from './Navbar';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.navbar}>
-        <Text>Navbar</Text>
+        <Navbar />
       </View>
       <View style={styles.product}>
-        <Text>Product</Text>
+        <Product />
       </View>
       <View style={styles.horList}>
-        <Text>Horizontal List</Text>
+        <HorList />
       </View>
     </View>
   );
@@ -24,17 +25,19 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+    padding: 20
   },
   navbar: {
-    backgroundColor: 'ref',
-    flex: 0.1
+    flex: 0.15,
+    width: '100%'
   },
   product: {
-    backgroundColor: '#fff',
-    flex: 0.5
+    backgroundColor: '#FFFFFF',
+    flex: 0.6,
+    width: '100%'
   },
   horList: {
-    backgroundColor: 'green',
-    flex: 0.4
+    flex: 0.4,
+    width: '100%'
   }
 });
