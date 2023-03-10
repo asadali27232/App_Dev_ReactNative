@@ -47,7 +47,7 @@ To run any of the lab works in this repository, you'll need to have [Node.js](ht
 npm install
 
 # Run the app
-npm start
+npx expo start
 ```
 
 This will start the Expo development server and open the app on your default browser. You can then use the Expo app on your phone or an emulator to view and test the app.
