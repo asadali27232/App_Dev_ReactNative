@@ -8,7 +8,7 @@ Here's a list of the lab works included in this repository:
 
 - [Lab 1: Simple Login Screen](./Lab1/)
 - [Lab 2: FlatList](./Lab2/)
-- [Lab 3: Coming Soon...](./Lab3/)
+- [Lab 3: SectionList](./Lab3/)
 - [Lab 4: Coming Soon...](./Lab4/)
 - [Lab 5: Coming Soon...](./Lab5/)
 - [Lab 6: Coming Soon...](./Lab6/)
