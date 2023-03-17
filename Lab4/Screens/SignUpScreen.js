@@ -6,34 +6,14 @@ import FoodieInput from "../Components/FoodieInput"
 import Label from "../Components/Label"
 import Navbar from "../Components/Navbar"
 import SignUp from "../Hooks/SignUp"
-import axios from "axios"
-
 
 export default function SignUpScreen() {
     const [isChecked, setIsChecked] = useState(false)
     const [res, setRes] = useState("")
 
     const handleSignUp = () => {
-        // setRes(SignUp())
-        // Alert.alert("API Response", res)
-        axios
-            .post("http://talk2you-live.lingmo-api.com/api/user", {
-                password: "12345678901234567890",
-                languageId: "en-US",
-                couponCode: "",
-                username: "asad-ali27232",
-                deviceToken: "",
-                fullName: "Asad Ali",
-                email: "zohaib32@gmail.com",
-                notificationApp: "lingmoimtab",
-                phone: "0321111111",
-            })
-            .then(function (response) {
-                console.log("response.data==", response.data)
-            })
-            .catch(function (error) {
-                console.log(error)
-            })
+        setRes(SignUp())
+        Alert.alert("API Response", res)
     }
 
     return (
