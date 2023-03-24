@@ -10,7 +10,7 @@ Here's a list of the lab works included in this repository:
 - [Lab 2: FlatList](./Lab2/)
 - [Lab 3: SectionList](./Lab3/)
 - [Lab 4: Custom Hooks](./Lab4/)
-- [Lab 5: Coming Soon...](./Lab5/)
+- [Lab 5: GET and Update on Firebase](./Lab5/)
 - [Lab 6: Coming Soon...](./Lab6/)
 - [Lab 7: Coming Soon...](./Lab7/)
 - [Lab 8: Coming Soon...](./Lab8/)
