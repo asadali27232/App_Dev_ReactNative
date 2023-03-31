@@ -51,7 +51,7 @@ npm install
 npx expo start
 ```
 
-This will start the Expo development server and open the app on your default browser. You can then use the Expo app on your phone or an emulator to view and test the app.
+This will start the Expo development server. You can open the app on your default browser or use the Expo app on your phone or an emulator, to view and test the app.
 
 ## Contributing
 Contributions to this repository are welcome. If you notice any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
