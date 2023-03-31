@@ -40,7 +40,10 @@ The labs in this repository were developed using the following technologies:
 
 ## Getting Started
 
-To run any of the lab works in this repository, you'll need to have [Node.js](https://nodejs.org/en/) and [Expo CLI](https://docs.expo.io/workflow/expo-cli/) installed on your machine. Once you have these dependencies installed, you have to clone or download zip of this repo in your desktop, now you can navigate to the directory of the lab work you want to run and execute the following commands:
+- Install Node.js and Expo CLI on your machine
+- Clone or download the repository to your local machine
+- Navigate to the directory of the lab work you want to run
+- Execute the following commands:
 
 ```sh
 # Install dependencies
@@ -50,8 +53,8 @@ npm install
 # Run the app
 npx expo start
 ```
-
-This will start the Expo development server. You can open the app on your default browser or use the Expo app on your phone or an emulator, to view and test the app.
+- This will start the development server and open the Expo Developer Tools in your browser.
+- You can use an Android or iOS device to scan the QR code from the Expo Developer Tools, or you can use an emulator to run the app.
 
 ## Contributing
 Contributions to this repository are welcome. If you notice any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
