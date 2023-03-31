@@ -13,33 +13,38 @@ import { app } from './Firebase';
 import { getDatabase, ref, onValue, update } from 'firebase/database';
 
 function HorList() {
-  const [menu, setMenu] = useState([]);
+  const [menu, setMenu] = useState();
 
   useEffect(() => {
     const db = getDatabase(app);
-    const dbRef = ref(db, 'burgers');
-    onValue(dbRef, (snapshot) => {
-      let data = snapshot.val();
-      setMenu(data);
-    });
+    const dbRef = ref(db, 'alldeals/burgers');
+
+    onValue(
+      dbRef,
+      (snapshot) => {
+        const data = snapshot.val();
+        setMenu(data);
+      },
+      (error) => {
+        console.error(error);
+      }
+    );
   }, []);
 
   const handleLike = (item) => {
     const db = getDatabase(app);
-    const dbRef = ref(db, `burgers/${item.key}`);
-
-    let change = true;
-    if (item.like == true) change = false;
+    const dbRef = ref(db, `alldeals/burgers/${item.key}`);
 
     update(dbRef, {
-      like: change,
+      like: !item.like,
     });
+    console.log('handleLike', item.like, change);
   };
 
   const renderItem = ({ item }) => {
     const favoriteImageSource = item.like
-      ? require('./assets/favorite.png')
-      : require('./assets/notFavorite.png');
+      ? require('./assets/like.png')
+      : require('./assets/notLike.png');
     return (
       <View
         style={{

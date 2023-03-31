@@ -14,10 +14,7 @@ function Navbar() {
       </View>
       <View style={styles.sec3}>
         <TouchableOpacity style={styles.button}>
-          <Image
-            style={styles.logo}
-            source={require('./assets/favorite.png')}
-          />
+          <Image style={styles.logo} source={require('./assets/notLike.png')} />
         </TouchableOpacity>
       </View>
     </View>
