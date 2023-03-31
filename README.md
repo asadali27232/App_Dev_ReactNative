@@ -45,7 +45,8 @@ To run any of the lab works in this repository, you'll need to have [Node.js](ht
 ```sh
 # Install dependencies
 npm install
-
+```
+```sh
 # Run the app
 npx expo start
 ```
