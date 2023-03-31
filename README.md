@@ -40,7 +40,7 @@ The labs in this repository were developed using the following technologies:
 
 ## Getting Started
 
-To run any of the lab works in this repository, you'll need to have [Node.js](https://nodejs.org/en/) and [Expo CLI](https://docs.expo.io/workflow/expo-cli/) installed on your machine. Once you have these dependencies installed, you can navigate to the directory of the lab work you want to run and execute the following commands:
+To run any of the lab works in this repository, you'll need to have [Node.js](https://nodejs.org/en/) and [Expo CLI](https://docs.expo.io/workflow/expo-cli/) installed on your machine. Once you have these dependencies installed, you have to clone or download zip of this repo in your desktop, now you can navigate to the directory of the lab work you want to run and execute the following commands:
 
 ```sh
 # Install dependencies
