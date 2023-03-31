@@ -7,6 +7,13 @@ import Label from '../Components/Label';
 import Navbar from '../Components/Navbar';
 
 import { auth } from '../Database';
+import {
+  getFirestore,
+  collection,
+  addDoc,
+  setDoc,
+  doc,
+} from 'firebase/firestore';
 
 import {
   getAuth,
@@ -43,12 +50,28 @@ export default function SignUp({ navigation }) {
     createUserWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         console.log(userCredential.user);
-        userCredential.user.displayName = name;
+        const userData = {
+          name: name,
+          email: email,
+          phone: '03074315952',
+        };
+        saveUserData(userData);
         navigation.navigate('LandingPage');
       })
       .catch((error) => {
         console.log(error);
       });
+  };
+
+  const saveUserData = async (userData) => {
+    const db = getFirestore();
+
+    try {
+      await setDoc(doc(db, 'users', userData.uid), userData);
+      console.log('Document written with ID: ', userData.uid);
+    } catch (e) {
+      console.error('Error adding document: ', e);
+    }
   };
 
   useEffect(() => {
