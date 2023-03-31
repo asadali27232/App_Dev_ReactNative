@@ -53,8 +53,8 @@ npm install
 # Run the app
 npx expo start
 ```
-- This will start the development server and open the Expo Developer Tools in your browser.
-- You can use an Android or iOS device to scan the QR code from the Expo Developer Tools, or you can use an emulator to run the app.
+- This will start the development server and open the Expo Developer Tools in your concole
+- You can use an Android or iOS device to scan the QR code from the Expo Developer Tools, or you can use an emulator to run the app
 
 ## Contributing
 Contributions to this repository are welcome. If you notice any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
