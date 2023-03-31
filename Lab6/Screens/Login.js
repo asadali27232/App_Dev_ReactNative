@@ -5,6 +5,15 @@ import FoodieButton from '../Components/FoodieButton';
 import FoodieInput from '../Components/FoodieInput';
 
 import { auth } from '../Database';
+import {
+  getFirestore,
+  collection,
+  query,
+  where,
+  getDocs,
+  getDoc,
+  doc,
+} from 'firebase/firestore';
 
 import {
   getAuth,
@@ -33,12 +42,48 @@ export default function Login({ navigation }) {
     signInWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         console.log('Loged in!');
-        console.log(userCredential.user);
+        console.log(userCredential.user.uid);
+        getUserDetails(userCredential.user.uid);
         navigation.navigate('LandingPage');
       })
       .catch((error) => {
         console.log(error);
       });
+  };
+
+  // const getUserDetails = async (uid) => {
+  //   const db = getFirestore();
+  //   const usersCollection = collection(db, 'users');
+  //   const userQuery = query(usersCollection, where('uid', '==', uid));
+
+  //   try {
+  //     const querySnapshot = await getDocs(userQuery);
+  //     if (!querySnapshot.empty) {
+  //       const userData = querySnapshot.docs[0].data();
+  //       console.log(userData);
+  //       return userData;
+  //     } else {
+  //       console.log('No user found with the given UID');
+  //     }
+  //   } catch (e) {
+  //     console.error('Error fetching user details: ', e);
+  //   }
+  // };
+
+  const getUserDetails = async (uid) => {
+    const db = getFirestore();
+    const docRef = doc(db, 'users', uid);
+
+    try {
+      const docSnap = await getDoc(docRef);
+      if (docSnap.exists()) {
+        console.log('Document data:', docSnap.data());
+      } else {
+        console.log('No such document!');
+      }
+    } catch (e) {
+      console.log('Error getting document:', e);
+    }
   };
 
   return (

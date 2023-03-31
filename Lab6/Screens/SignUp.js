@@ -55,7 +55,7 @@ export default function SignUp({ navigation }) {
           email: email,
           phone: '03074315952',
         };
-        saveUserData(userData);
+        saveUserData(userCredential.user.uid, userData);
         navigation.navigate('LandingPage');
       })
       .catch((error) => {
@@ -63,16 +63,27 @@ export default function SignUp({ navigation }) {
       });
   };
 
-  const saveUserData = async (userData) => {
+  const saveUserData = async (uid, userData) => {
     const db = getFirestore();
 
     try {
-      await setDoc(doc(db, 'users', userData.uid), userData);
+      await setDoc(doc(db, 'users', uid), userData);
       console.log('Document written with ID: ', userData.uid);
     } catch (e) {
       console.error('Error adding document: ', e);
     }
   };
+
+  // const saveUserData = async (userData) => {
+  //   const db = getFirestore();
+
+  //   try {
+  //     const docRef = await addDoc(collection(db, 'users'), userData);
+  //     console.log('Document written with ID: ', docRef.id);
+  //   } catch (e) {
+  //     console.error('Error adding document: ', e);
+  //   }
+  // };
 
   useEffect(() => {
     console.log('Sign Up Screen');
